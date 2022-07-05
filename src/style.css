@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.l-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.l-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  color: #FFF;
+  letter-spacing: 0.5em;
+}
+
+.l-text span {
+  display: inline-block;
+}
+
+
+
+.link {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  font-size: 18px;
+  color: inherit;
+  text-decoration: none;
+  color: #FFF;
+  background-color: #000;
+  z-index: 9999;
+}

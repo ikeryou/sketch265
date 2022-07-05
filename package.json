@@ -1,0 +1,30 @@
+{
+  "name": "sketch265",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/events": "^3.0.0",
+    "@types/matter-js": "^0.17.7",
+    "@types/node": "^17.0.21",
+    "@types/three": "^0.141.0",
+    "autoprefixer": "^10.4.2",
+    "matter-js": "^0.18.0",
+    "postcss": "^8.4.6",
+    "snd-lib": "^1.0.1",
+    "three": "^0.141.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0",
+    "vite-plugin-glsl": "^0.0.8"
+  },
+  "dependencies": {
+    "current-device": "^0.10.2",
+    "gsap": "^3.9.1",
+    "lil-gui": "^0.16.0",
+    "stats.js": "^0.17.0"
+  }
+}

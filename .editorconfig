@@ -1,0 +1,17 @@
+# top-most EditorConfig file
+root = true
+
+# Base rules
+[*]
+#改行コード
+end_of_line = lf
+#ファイルの末尾が改行文字ではない場合に補完
+insert_final_newline = false
+indent_style = space
+indent_size = 2
+charset = utf-8
+#行末の空白文字を削除
+trim_trailing_whitespace = true
+
+[*.md]
+insert_final_newline = true
